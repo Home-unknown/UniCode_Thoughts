@@ -1,16 +1,15 @@
-/*
-//×ªÒå×Ö·ûÓÃÓÚ±íÊ¾Ò»Ğ©²»ÄÜÏÔÊ¾³öÀ´µÄASCII×Ö·û
+//è½¬ä¹‰å­—ç¬¦ç”¨äºè¡¨ç¤ºä¸€äº›ä¸èƒ½æ˜¾ç¤ºå‡ºæ¥çš„ASCIIå­—ç¬¦
 #include<iostream>		
 using namespace std;
 
 int main()
 { 
-	cout << "hello world\n";		//»»ĞĞ·û	"\n" 
+	cout << "hello world\n";		//æ¢è¡Œç¬¦	"\n" 
 	cout << "hello world";				
 
-	cout << "\n\\"<<endl;		//·´Ğ±¸Ü"\",µÚÒ»¸ö·´Ğ±¸Ü¸æËß±àÒëÆ÷½«ÒªÊä³öÌØÊâ×Ö·û
+	cout << "\n\\"<<endl;		//åæ–œæ "\",ç¬¬ä¸€ä¸ªåæ–œæ å‘Šè¯‰ç¼–è¯‘å™¨å°†è¦è¾“å‡ºç‰¹æ®Šå­—ç¬¦
 
-	cout << "a \t helloworld" << endl;		//Ë®Æ½ÖÆ±í·û"\t",ÕûÆëµÄÊä³öÊı¾İ
+	cout << "a \t helloworld" << endl;		//æ°´å¹³åˆ¶è¡¨ç¬¦"\t",æ•´é½çš„è¾“å‡ºæ•°æ®
 	cout << "aa \t helloworld" << endl;
 	cout << "aaa \t helloworld" << endl;
 
@@ -18,4 +17,3 @@ system("pause");
 
 return 0;
 }
-*/
