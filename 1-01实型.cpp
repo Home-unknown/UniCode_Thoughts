@@ -1,22 +1,21 @@
-/*
-//µ¥¾«¶È  float		Ë«¾«¶È  double
-//Ä¬ÈÏÇé¿öÏÂ Êä³öÒ»¸öĞ¡Êı£¬»áÏÔÊ¾6Î»ÓĞĞ§Êı×Ö
+//å•ç²¾åº¦  float		åŒç²¾åº¦  double
+//é»˜è®¤æƒ…å†µä¸‹ è¾“å‡ºä¸€ä¸ªå°æ•°ï¼Œä¼šæ˜¾ç¤º6ä½æœ‰æ•ˆæ•°å­—
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	float f1 = 3.14f;				//Êı×Öºó¼Óf£¬ÈÃÏµÍ³ÈÏÎªÆäÊÇµ¥¾«¶È(²»¼ÓÄ¬ÈÏË«¾«¶È);
+	float f1 = 3.14f;				//æ•°å­—ååŠ fï¼Œè®©ç³»ç»Ÿè®¤ä¸ºå…¶æ˜¯å•ç²¾åº¦(ä¸åŠ é»˜è®¤åŒç²¾åº¦);
 	cout << "f1=" << f1 <<endl;
 
 	double  d1= 3.14;
 	cout << "\nd2=" << d1<<endl;
 	
-	cout << "\nfloatµÄÕ¼ÓÃÎª£º"  << sizeof(float)  << endl;
+	cout << "\nfloatçš„å ç”¨ä¸ºï¼š"  << sizeof(float)  << endl;
 
-	cout << "\ndoubleµÄÕ¼ÓÃÎª£º" << sizeof(double) << endl;
+	cout << "\ndoubleçš„å ç”¨ä¸ºï¼š" << sizeof(double) << endl;
 
-	//¿ÆÑ§¼ÆÊı·¨
+	//ç§‘å­¦è®¡æ•°æ³•
 
 	float f2 = 3e2;		//3*10^2;
 	cout << "\nf2=" << f2 << endl;
@@ -28,4 +27,3 @@ int main()
 
 	return 0;
 }
-*/
